@@ -51,11 +51,22 @@ table#movies th, table#movies td {
     padding: 4px;
     text-align: left;
 }
-#notice, #warning {
+#notice {
+    color: green;
+    text-align: center;
     background: rosybrown;
     margin: 1em 0;
     padding: 4px;
 }
+
+#warning {
+      color: red;
+      text-align: center;
+      background: rosybrown;
+      margin: 1em 0;
+      padding: 4px;
+}
+
 form label {
     display: block;
     line-height: 25px;
